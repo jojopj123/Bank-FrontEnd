@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 25);
+    text-shadow: 2px 2px rgb(188, 231, 17);
+}
+.links :hover{
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+#welcome{
+    background: linear-gradient(blue,rgb(180, 180, 187));
+    color: aliceblue;
+
+}
+.profile{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+h1{
+    font-size: 60px;
+    line-height: 1.6;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'pacifico', cursive;
+}
+#bio{
+    padding: 50px;
+    font-family: 'noto serif', serif;
+
+}
+.line{
+    height: 6px;
+    background-color: aqua;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+#writings a{
+    text-shadow:none ;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: rgb(129, 22, 230);
+}
+#contact{
+    background-color: red;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: aliceblue;
+}

@@ -1,0 +1,16 @@
+          Angular - Front end Technology
+
+          basic commands
+          1.to creat a project - ng new project-name / 
+
+          2. to run angular project - ng serve / ng serve --open
+
+          3. to generate components - ng g c component - name 
+
+                   Basic bulding blocks  
+
+                .............................
+
+                1. module - to import 3rd party - (root module - AppModule)
+
+                2. component - to creat a html,css,ts file (root component - AppComponent)   
