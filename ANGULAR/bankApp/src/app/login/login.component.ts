@@ -35,25 +35,49 @@ export class LoginComponent implements OnInit {
     this.pswd =event.target.value
     console.log(this.pswd);
   }
-  Login(){
+  //Login(){
 
-    var acno = this.acno
-    var pswd = this.pswd
+   // var acno = this.acno
+    //var pswd = this.pswd
 
-    let userDeatails = this.userDetails
+    //let userDeatails = this.userDetails
 
-    if(acno in userDeatails){
-      if(pswd == userDeatails[acno]['password']){
-        alert('Login Successful')
-      }
-      else{
-        alert('Incorrect password')
-      }
+    //if(acno in userDeatails){
+      //if(pswd == userDeatails[acno]['password']){
+       // alert('Login Successful')
+      //}
+      //else{
+        //alert('Incorrect password')
+      //}
 
-    }
-    else{
-      alert('User does not exist!!')
-    }
-  }
+    //}
+    //else{
+     // alert('User does not exist!!')
+    //}
+  //}
+
+
+  Login(a:any,p:any)  {
+    //console.log(a.value);
+    
+
+    var acno = a.value
+     var pswd = p.value
+ 
+     let userDeatails = this.userDetails
+ 
+     if(acno in userDeatails){
+       if(pswd == userDeatails[acno]['password']){
+         alert('Login Successful')
+       }
+       else{
+         alert('Incorrect password')
+       }
+ 
+     }
+     else{
+       alert('User does not exist!!')
+     }
+   }
   
 }
